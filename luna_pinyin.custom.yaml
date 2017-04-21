@@ -1,10 +1,8 @@
 patch:
   ### Load extended dict
-  "translator/dictionary": luna_pinyin
+  "translator/dictionary": luna_pinyin.extended
   ### Filter rare char
   "translator/enable_charset_filter": true
-  ### Fuzzy match
-  "speller/algebra/@before 0": xform/^([b-df-hj-np-tv-z])$/$1_/
   ### Default English
   "switches/@0/reset": 1
   ### Default simplified

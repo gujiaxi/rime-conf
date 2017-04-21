@@ -1,0 +1,12 @@
+---
+name: luna_pinyin
+version: "2015.12.02"
+sort: by_weight
+use_preset_vocabulary: true
+import_tables:
+  - dict/luna_pinyin.main
+  - dict/luna_pinyin.phrase
+  - dict/luna_pinyin.sogou
+  - dict/luna_pinyin.computer
+  - dict/luna_pinyin.emoji
+...
