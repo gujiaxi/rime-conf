@@ -5,8 +5,8 @@ sort: by_weight
 use_preset_vocabulary: true
 import_tables:
   - dict/luna_pinyin.main
-  - dict/luna_pinyin.phrase
+  - dict/luna_pinyin.basic
   - dict/luna_pinyin.sogou
-  - dict/luna_pinyin.computer
   - dict/luna_pinyin.emoji
+  - dict/luna_pinyin.greek
 ...

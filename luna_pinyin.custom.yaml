@@ -1,9 +1,9 @@
 patch:
   ### Load extended dict
-  "translator/dictionary": luna_pinyin.extended
+  translator/dictionary: luna_pinyin.extended
   ### Filter rare char
-  "translator/enable_charset_filter": true
+  translator/enable_charset_filter: true
   ### Default English
-  "switches/@0/reset": 1
+  switches/@0/reset: 1
   ### Default simplified
-  "switches/@2/reset": 1
+  switches/@2/reset: 1
